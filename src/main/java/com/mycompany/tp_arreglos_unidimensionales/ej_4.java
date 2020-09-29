@@ -48,9 +48,9 @@ public class ej_4 {
         
         Float mayor = (float)0;
         
-        for (int i=0 ; i < arreglo.length ; i++){
-            if (arreglo[i] > mayor){
-                mayor = arreglo[i];
+        for (Float dato : arreglo) {
+            if (dato > mayor) {
+                mayor = dato;
             }
         }
         
@@ -61,9 +61,9 @@ public class ej_4 {
         
         Float menor = (float)arreglo[0];
         
-        for (int i=0 ; i < arreglo.length ; i++){
-            if (arreglo[i] < menor){
-                menor = arreglo[i];
+        for (Float dato : arreglo) {
+            if (dato < menor) {
+                menor = dato;
             }
         }
         

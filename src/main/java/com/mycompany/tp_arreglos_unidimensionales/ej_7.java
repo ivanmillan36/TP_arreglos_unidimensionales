@@ -15,8 +15,8 @@ import java.util.Scanner;
 public class ej_7 {
     public static void main(String[] args) {
         int arreglo[] = new int[10];
-        int arregloAscendente[] = new int[10];
-        int arregloDescendente[] = new int[10];
+        int arregloAscendente[];
+        int arregloDescendente[];
         
         cargarArreglo(arreglo);
         System.out.println("Arreglo ingresado: " + Arrays.toString(arreglo));

@@ -37,7 +37,7 @@ public class ej_6 {
     public static void realizarBusqueda(int arreglo[]){
         int posicion = 0;
         boolean encontrado = false;
-        int dato = 0;
+        int dato;
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Ingrese un entero para buscarlo en el arreglo: ");

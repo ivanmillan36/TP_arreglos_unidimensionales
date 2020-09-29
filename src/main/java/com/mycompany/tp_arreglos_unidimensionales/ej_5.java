@@ -16,7 +16,7 @@ import java.util.Arrays;
 public class ej_5 {
     public static void main(String[] args) {
         int arreglo[] = new int[20] ;
-        int promedio = 0;
+        int promedio;
         
         
         rellenarArreglo(arreglo);
